@@ -7,9 +7,12 @@
     <groupId>io.springbooquickstart</groupId>
     <artifactId>course-api</artifactId>
     <version>1.0-SNAPSHOT</version>
-
-
-    
+         
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.6.RELEASE</version>
+    </parent>
 
     <dependencies>
 
@@ -17,7 +20,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
+         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-parent</artifactId>
+        </dependency>
 
     </dependencies>
 
